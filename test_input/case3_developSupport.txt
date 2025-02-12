@@ -1,0 +1,36 @@
+Develop an LLM-based decision support system for control room operators managing the integration of renewable energy sources during a potential grid instability scenario. The system should interpret given data, provide actionable insights, and assist in collaborative decision-making.
+ 
+Inputs:
+ 
+1. Current Grid Status:
+   - Total load: 10,000 MW
+   - Conventional generation: 6,000 MW
+   - Wind generation: 3,000 MW
+   - Solar generation: 1,000 MW
+   - Grid frequency: 49.95 Hz (Normal range: 49.8 - 50.2 Hz)
+ 
+2. Weather Forecast (next 6 hours):
+   - Wind speed decreasing from 15 m/s to 5 m/s
+   - Cloud cover increasing from 10% to 80%
+ 
+3. Demand Forecast (next 6 hours):
+   - Peak demand expected to reach 11,000 MW in 4 hours
+ 
+4. Energy Storage Status:
+   - Available capacity: 500 MWh
+   - Current charge level: 60%
+ 
+5. Recent Incidents:
+   - Minor voltage fluctuations reported in the northern region
+   - One transmission line operating at 90% capacity
+ 
+Task for the LLM-based System:
+ 
+1. Analyze the given inputs and identify potential risks to grid stability.
+2. Propose a strategy to maintain grid stability over the next 6 hours, considering the expected decrease in renewable generation and increase in demand.
+3. Suggest specific actions for:
+   a. Adjusting conventional generation
+   b. Managing energy storage
+   c. Implementing demand response measures
+4. Provide a natural language summary of the situation and recommendations for the control room operators.
+5. Be prepared to answer follow-up questions from operators about the proposed strategy.

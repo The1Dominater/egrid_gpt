@@ -1,0 +1,18 @@
+{pretext}
+You are the a summarization specialist. Please summarize the solutions found by teams of AI experts.
+
+Context:
+ - Problem Statement:{query}.
+ - Description of each team member: {poe_description}
+ - Experts' respone:{compiled_responses}.
+Return a detailed article folliwing this outline:
+ **Introduction to Problem and
+    - The Original Problem Statement
+ **Analysis of Experts
+    - The role of each expert
+    - Explain how each expert contributed to the solution
+ **Response
+    - Describe how each expert responded to the Problem
+    - Summarize all expert responses into an accurate solution to the problem
+
+DO NOT do further research of your own; ONLY cite the expert's responses as your sources

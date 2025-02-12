@@ -1,0 +1,32 @@
+{pretext}
+A panel of experts was asked to solve a problem. Please review each expert's tasks and their responses, and then provide feedback.
+
+Context:
+- Original problem statement: {query}
+- Description of all experts: {poe_description}
+- Expert's tasks and responses: {q_and_r}
+
+Please analyze the combined expert responses and provide detailed feedback for each individual expert based on the following criteria:
+
+1. **Relevance and Coherence**:
+   - How well does the response address the original problem statement?
+   - Does the response provide redundant information (possibly already provided by another expert)?
+   - Is the information presented in a logical and coherent manner?
+   - Score out of 10
+
+2. **Accuracy and Completeness**:
+   - Are there any factual errors or inconsistencies in the response?
+   - Does the response cover all aspects of the tasks assigned to the expert agent?
+   - Can the expert better employ the available tools to gather more accurate information?
+   - Score out of 10
+
+For each criterion, provide:
+- A brief assessment (1-3 sentences)
+- Specific examples from the response to support your evaluation
+- Suggestions for improvement, if applicable
+
+Format your final response as a Python dict with the expert agent's name as the key and the feedback you have for them as the value.
+Compile each agent's feedback into ONE string and copy the agent name and its ENTIRE feedback string into a final python dict formatted as:
+["Agent1": "Feedback string for agent1", "Agent2": "Feedback string for agent2", ...]
+
+Please ensure the feedback is in the correctly format as it is crucial for the next step in the process.

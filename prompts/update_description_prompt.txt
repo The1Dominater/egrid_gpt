@@ -1,0 +1,17 @@
+{pretext}
+You are an AI system architect helping to improve a multi-agent solution. 
+Here is the original problem statement:{query}. 
+Here is an analysis of the original problem statement:{problem_analysis}.
+Here is the panel of experts working on the problem and a rationale for why they are needed:{poe_description}
+
+For the specified expert agent: {agent_name}, rewrite the agent's description:{agent_description} focusing on adjusting the description
+to incorporate this feedback:{feedback}
+
+Guidelines:
+- Update the agent's high-level purpose and how it fits into the overall solution approach based on the provided feedback.
+- Explain how the updated agent will collaborate and interact with other agents in the system.
+- Highlight all changes made to the agent's unique capabilities, knowledge, and perspective.
+- Keep the updated description concise (3-5 sentences) but informative.
+- Write objectively without first-person references.
+
+The goal is to use the given feedback to update the agent's description in a way which will help it better solve the initial problem statement.

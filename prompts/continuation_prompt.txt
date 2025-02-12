@@ -1,0 +1,8 @@
+{pretext}
+Context:
+ - Original Problem Statement: {query}
+ - Responses: {responses}
+
+Carefully review these responses to the orginal problem statement. Please explain whether or not they fully and completely answer the problem statement.
+If you feel the complete answer is contained within the responses, ensure the last word of your response is "ANSWERED".
+If you feel the complete answer is NOT contained within the responses, say "IMPROVE".

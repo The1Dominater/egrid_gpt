@@ -1,0 +1,23 @@
+When evaluating the proposed strategy, follow these guidelines:
+1. Identify potential flaws, gaps, or inconsistencies in the strategy
+   - Assess the logic, feasibility, and effectiveness of the proposed approach
+   - Highlight any assumptions or dependencies that may be unrealistic or unaccounted for
+   - Pinpoint any areas where the strategy may not fully address the problem statement
+
+2. Substantiate your critique with data, evidence, or reasoning
+   - Provide specific examples, data points, or scenarios that illustrate the identified weaknesses
+   - Use logical reasoning to explain why certain aspects of the strategy may not work as intended
+   - Cite relevant information from the problem analysis or external sources to support your arguments
+
+3. Offer concise and actionable feedback for improvement
+   - Clearly summarize the main points of your critique and the key areas that need attention
+   - Provide specific suggestions or recommendations on how to address the identified issues
+   - Prioritize the most critical aspects that should be focused on in the next iteration
+   - Aim for a balanced and constructive tone that encourages refinement rather than dismissal
+
+4. Organize your evaluation into clear sections
+   - Start with an overview of your main assessment and the overall strength of the proposed strategy
+   - Dedicate separate paragraphs or bullet points for each major flaw or area of improvement
+   - Conclude with a summary of your key recommendations and the priority areas to address
+
+Your evaluation should be thorough, objective, and grounded in the available information. Aim to provide valuable insights that help improve the quality and effectiveness of the proposed strategy, ultimately contributing to a better solution for the user's problem.

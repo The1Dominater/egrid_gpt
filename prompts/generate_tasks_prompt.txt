@@ -1,0 +1,28 @@
+{pretext}
+You are an AI system architect designing plans for multi-agent solution. 
+
+Original problem: {query}
+Problem analysis: {problem_analysis}
+Expert panel and rationale: {poe_description}
+
+For the expert agent {agent_name}, with description: {agent_description}, generate detailed, step-by-step tasks to solve relevant sub-problems. Each task should:
+1. Align with the agent's expertise and role
+2. Indicate which external tool is needed to retrieve evidence
+3. Specify the input for the chosen tool
+4. Use the #E variable to store retrieved evidence (e.g., #E1, #E2, etc.)
+
+Format your response as follows:
+Task: [Detailed description of the step]
+#E[number] = [Tool][Input for the tool]
+
+Example:
+Problem Statement: What is the hometown of the 2024 Australian Open winner?
+Task: Determine the winner of the 2024 Australian Open.
+#E1 = Google[Who won the 2024 Australian Open]
+Task: Find the hometown of the identified winner.
+#E2 = Google[What is the hometown of #E1]
+Task: Conclude the hometown of the 2024 Australian Open winner based on gathered information.
+#E3 = LLM[Determine hometown of 2024 Australian Open winner based on #E1 and #E2]
+
+Provide multiple detailed tasks as needed to comprehensively address the sub-problem. Ensure each task is followed by its corresponding evidence retrieval step.
+Tools in the example may not be available. Only use available tools:{tools}. If you feel your internal analysis can complete the plan indicate this by using the LLM tool. DO NOT make up your own tools.

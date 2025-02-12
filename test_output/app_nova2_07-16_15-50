@@ -1,0 +1,12 @@
+Framework:app_nova2, Problem Set:_short_microgrid_management.json, Grade:10, TTF:90.867 minutes
+
+Grader Analysis:
+{
+"grade": "10"
+}
+
+Target Response:
+On 05/10/2017, Jane will be able to produce her own electricity again after spending $1.80 on electricity while her solar panels were not working.
+
+Framework Response:
+05/10/2017, $1.80

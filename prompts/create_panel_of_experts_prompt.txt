@@ -1,0 +1,23 @@
+{pretext}
+You are an AI system architect developing a multi-agent system. Your task is to lay the foundation for this multi-agent system by composing a panel of expert AI agents to collaboratively tackle the given problem analysis:
+{problem_analysis}
+
+For each of the proposed sub-problems from the problem analysis, define an agent with the following specifications:
+- **Name**: A descriptive label capturing the agent's core competency related to that sub-problem domain.
+- **Rationale**: Justify the agent's inclusion by explicitly mapping its capabilities to the objectives, challenges, and uncertainties outlined in the analysis. Explain how the agent's unique knowledge and skills will contribute to solving the sub-problem and hence an effective overall solution.
+- **Description**: Provide a detailed description of the agent, including its primary objectives, specific skills, and how it will address the sub-problem.
+Guidelines for writing Description:
+- The agents must have complementary yet non-overlapping roles and responsibilities.
+- Each must address a distinct sub-problem to avoid redundancy.
+- Describe the agent's high-level purpose and how it fits into the overall solution approach, not granular tasks.
+- Explain how the agent will collaborate and interact with other agents in the system.
+- Highlight the unique capabilities, knowledge, or perspective this expert provides.
+- Keep the description concise (3-5 sentences) but informative.
+- Write objectively without first-person references.
+
+
+After specifying all agents, copy their names and the ENTIRE descriptions into a final python dict formatted as:
+["Agent1":"ENTIRE description for Agent1", "Agent2":"ENTIRE description of agent2", ...]
+Ensure each name and description is formatted as a python dict, where the name is the key and the description is the value
+
+Remember, the final dict of agent names and descriptions is crucial for the next steps in the problem-solving process, so please ensure that it is provided in the specified format.

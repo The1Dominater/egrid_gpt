@@ -1,0 +1,12 @@
+Framework:app_nova2, Problem Set:_short_microgrid_management.json, Grade:4, TTF:19.459 minutes
+
+Grader Analysis:
+{
+"grade": "4"
+}
+
+Target Response:
+(C) The load balancer dial is the second from the left
+
+Framework Response:
+The correct answer is (B) The frequency monitor dial is the second from the left.

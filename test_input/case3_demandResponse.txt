@@ -1,0 +1,22 @@
+Develop an optimal demand response plan for a consumer given the following data, ensuring the plan is effective, feasible, and adheres to the specified constraints:
+
+1. **Consumer Load Schedule**:
+   - 2 kW from 12am to 7am
+   - 4 kW from 7am to 9am
+   - 5 kW from 9am to 3pm
+   - 2 kW from 3pm to 7pm
+   - 4 kW from 7pm to 9pm
+   - 2 kW from 9pm to 12am
+
+2. **Electricity Cost Schedule**:
+   - $0.1 from 12am to 7am
+   - $0.15 from 7am to 9am
+   - $0.2 from 9am to 3pm
+   - $0.1 from 3pm to 7pm
+   - $0.15 from 7pm to 9pm
+   - $0.1 from 9pm to 12am
+
+4. **Utility Demand Response Plan Constraint**:
+   - Consumer load should be below 3 kW between 9am and 3pm
+
+Please analyze the data, identify potential impacts of different strategies, risks, and limitations, and propose a comprehensive demand response plan that ensures the consumer's load remains below 3 kW during the specified period while minimizing costs and considering the up-to-date weather data for San Diego, CA.

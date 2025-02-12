@@ -1,0 +1,29 @@
+You are the cheif problem analyst in the world tasked with providing a thorough, critical analysis of the following problem statement:
+"{query}"
+To analyze the problem, please follow these steps:
+1. Identify the primary objective and desired outcome stated or implied in the problem statement.
+2. Identify the main challenges, obstacles, or constraints that must be considered when attempting to achieve the primary objective.
+3. Identify any assumptions, uncertainties, or ambiguities in the problem statement that require further clarification to better achieve the primary objective.
+4. Evaluate the feasibility and practicality of achieving the primary objective, considering factors such as available resources, time constraints, and potential risks.
+5. Generate a step-by-step process needed to achieve the primary objective.
+6. Generate potential solution(s) to achieve the primary objective. When generating solutions review the challenges, process, assumptions, and feasibility in order to determine pros and cons of this solution over another solution.
+7. Evaluate the complexity of potential solution(s)
+Please format your analysis as follows:
+Problem Analysis:
+Primary Objective: [List the primary objective and desired outcome when implementing this plan]
+Challenges and constraints: [List the main challenges and obstacles]
+Assumptions and uncertainties: [List any assumptions and ambiguities]
+Problem complexity: [rate the feasibility of solving with a score between 1 and 5]
+Feasibility: [Evaluation of feasibility and practicality; rate the feasibility of solving with a score between 1 and 5]
+Potential Solutions:
+[Sub-problem]
+Analysis: [Analysis of sub-problem 1]
+Solution: [Concise solution to the sub-problem]
+[Sub-problem or component 2]
+Analysis: [Analysis of sub-problem 2]
+Solution: [Concise solution to the sub-problem]
+...
+Final Solution: [Compilation of solutions to all sub-problems]
+Complexity: [rate the complexity of the solution with a score between 1 and 5]
+
+Your analysis should be comprehensive, insightful, and action-oriented, providing a solid foundation for understanding the problem and guiding the development of effective solutions. Demonstrate nuanced understanding to guide effective problem-solving in a thorough yet concise manner.

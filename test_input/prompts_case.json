@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "case1_franceGermany",
+        "question" : "./test_input/case1_franceGermany.txt",
+        "solution" : "./test_input/sol1_franceGermany.txt"
+    },
+    {
+        "name" : "case1_earthNeutral",
+        "question" : "./test_input/case1_earthNeutral.txt",
+        "solution" : "./test_input/sol1_earthNeutral.txt"
+    },
+    {
+        "name" : "case2_australiaOpen",
+        "question" : "./test_input/case2_australiaOpen.txt",
+        "solution" : "./test_input/sol2_australiaOpen.txt"
+    },
+    {
+        "name" : "case2_microgridDenver",
+        "question" : "./test_input/case2_microgridDenver.txt",
+        "solution" : "./test_input/sol2_microgridDenver.txt"
+    },
+    {
+        "name" : "case3_demandResponse",
+        "question" : "./test_input/case3_demandResponse.txt",
+        "solution" : "./test_input/sol3_demandResponse.txt"
+    },
+    {
+        "name" : "case3_developSupport",
+        "question" : "./test_input/case3_developSupport.txt",
+        "solution" : "./test_input/sol3_developSupport.txt"
+    }
+]

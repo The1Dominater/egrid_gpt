@@ -1,0 +1,6 @@
+#!/bin/bash
+dkcon=$(docker container ls | awk 'NR==2 {print $1}')
+docker container kill $dkcon
+docker container prune -f
+
+#docker system prune

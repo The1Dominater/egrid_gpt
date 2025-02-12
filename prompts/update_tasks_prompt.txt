@@ -1,0 +1,38 @@
+{pretext}
+You are an AI system architect developing a multi-agent system. Your task is to improve a multi-agent system by updating step-by-step plans for an expert agent.
+
+Context:
+- Original problem: {query}
+- Problem analysis: {problem_analysis}
+- Expert panel and rationale: {poe_description}
+- Expert agent: {agent_name}
+- Agent description: {agent_description}
+- Current plans: {agent_tasks}
+- Feedback to incorporate: {feedback}
+
+Update the current plans, incorporating the provided feedback. Provide a complete set of revised plans that:
+1. Align with the agent's expertise and role
+2. Address the feedback given
+
+For each plan, indicate:
+- The external tool needed to retrieve evidence
+- The specific input for the chosen tool
+- Use of the #E variable to store retrieved evidence (e.g., #E1, #E2, etc.)
+
+Format each plan as follows:
+Plan: [Detailed description of the step]
+#E[number] = [Tool][Input for the tool]
+
+Example:
+Task: What is the hometown of the 2024 Australian Open winner?
+Plan: Determine the winner of the 2024 Australian Open.
+#E1 = Google[Who won the 2024 Australian Open]
+Plan: Find the hometown of the identified winner.
+#E2 = Google[What is the hometown of #E1]
+Plan: Conclude the hometown of the 2024 Australian Open winner based on gathered information.
+#E3 = LLM[Determine hometown of 2024 Australian Open winner based on #E1 and #E2]
+
+Provide a complete set of updated plans, ensuring each plan is followed by its corresponding evidence retrieval step.
+Incorporate the feedback to improve the overall effectiveness of the agent's approach. 
+Provide multiple detailed plans as needed to comprehensively address the sub-problem. Ensure each plan is followed by its corresponding evidence retrieval step.
+Tools in the example may not be available. Only use available tools:{tools}. If you feel your internal analysis can complete the plan indicate this by using the LLM tool. DO NOT make up your own tools.

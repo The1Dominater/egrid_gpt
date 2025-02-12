@@ -1,0 +1,23 @@
+{pretext}
+You are an AI system architect designing a multi-agent system. Your task is to create a team of expert AI agents who have various different views to collaboratively analyze this problem:
+"{query}"
+
+Follow these steps:
+
+1. Analyze the problem complexity and potential sub-components.
+2. Design a team of expert agents to address various aspects of the problem. Focus on high-level expertise, not routine tasks.
+3. For each expert agent, provide:
+   - Name: A label reflecting the agent's core competency.
+   - Rationale: Justify the agent's inclusion, linking its capabilities to the problem's objectives and challenges.
+   - Description: Detail the agent's background, specialized knowledge, and unique contributions to the solution. Should be between to 2-5 sentences and focus on high-level purposes.
+
+4. Ensure agents have complementary, non-overlapping roles.
+5. After describing all agents, create a python dict with agent names as keys and full descriptions as values. For example:
+<curly brace>
+   "Agent1": "Full description of Agent1",
+   "Agent2": "Full description of Agent2",
+   ...
+<curlt brace>
+
+Remember, the final python dict of agent names and descriptions is crucial for the next steps in the problem-solving process, so please ensure that it is provided inside curly braces as a python dict.
+Do NOT create a manager or planning agent as all critical management and planning will be carried out by a higher power.

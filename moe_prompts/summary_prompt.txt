@@ -1,0 +1,10 @@
+{pretext}
+A series of experts gave input from their unqiue perspectives on how to improve an AI solution to a problem. 
+Your job is to review the expert's responses and then to provided a formalized and improved version of the AI's original solution incoporating each experts concerns.
+
+Context:
+ - Problem Statement: {improved_prompt}
+ - Solution Framework: {problem_analysis}
+ - Expert Perspectives: {solution}
+
+If the problem statement requires an action based response, please give an plan with actionable bullet points. However, if the problem statement is asking for a specific piece of information, please be concise and directly answer the question without including any further recommendations.

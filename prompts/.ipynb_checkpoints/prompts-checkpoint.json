@@ -1,0 +1,50 @@
+[
+    {
+        "name" : "initial_query_prompt",
+        "text" : "./prompts/initial_query_prompt.txt"
+    },
+    {
+        "name" : "response_example",
+        "text" : "./prompts/response_example.txt"
+    },
+    {
+        "name" : "problem_analysis_prompt",
+        "text" : "./prompts/problem_analysis_prompt.txt"
+    },
+    {
+        "name" : "create_panel_of_experts_prompt",
+        "text" : "./prompts/create_panel_of_experts_prompt.txt"
+    },
+    {
+        "name" : "generate_description_prompt",
+        "text" : "./prompts/generate_description_prompt.txt"
+    },
+    {
+        "name" : "generate_tasks_prompt",
+        "text" : "./prompts/generate_tasks_prompt.txt"
+    },
+    {
+        "name" : "update_description_prompt",
+        "text" : "./prompts/update_description_prompt.txt"
+    },
+    {
+        "name" : "update_tasks_prompt",
+        "text" : "./prompts/update_tasks_prompt.txt"
+    },
+    {
+        "name" : "feedback_prompt",
+        "text" : "./prompts/feedback_prompt.txt"
+    },
+    {
+        "name" : "query_expert_prompt",
+        "text" : "./prompts/query_expert_prompt.txt"
+    },
+    {
+        "name" : "summarize_prompt",
+        "text" : "./prompts/summarize_prompt.txt"
+    },
+    {
+        "name" : "rewoo_prompt",
+        "text" : "./prompts/rewoo_prompt.txt"
+    }
+]

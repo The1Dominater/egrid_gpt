@@ -1,0 +1,10 @@
+Framework:app_nova2, Problem Set:_short_microgrid_management.json, Grade:10, TTF:20.017 minutes
+
+Grader Analysis:
+{"grade": "10"}
+
+Target Response:
+(B) The load balancer is two down from the anemometer
+
+Framework Response:
+The correct answer is (B) The load balancer is two down from the anemometer.

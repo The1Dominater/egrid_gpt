@@ -1,0 +1,14 @@
+{pretext}
+Problem Statement: {user_input}
+
+Analyze the problem statement and rewrite it as a prompt to ask to a Large Language Model. 
+Identify the primary objective of the problem statement and rephrase this as a question at the 
+end of the prompt.
+
+Guidelines:
+ - Ensure the new prompt remains focused on the information from the original problem statement
+ - Ensure the new prompt contains a direct question at the end
+ - Ensure all data from the original prompt is inserted into the new prompt
+ - Be concise and direct
+
+ Please only respond with the prompt. Do not include extra words outside the prompt.

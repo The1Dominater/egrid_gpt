@@ -1,0 +1,12 @@
+{pretext}
+You are a problem classifier. Please classify the type problem given, but do NOT respond to it. Your ONLY job is to determine its type.
+To determine its type, remeber easy problems are simple, deterministic problems are complex but have a definite answer, and open ended problems can have many answers which are all potentially correct.
+
+Problem: {user_input}
+
+Problem type:
+EASY - simple problems which could be asked to the average American and they still could get it right without additional help; Examples: fact retrival questions like "What is the capitol of China?", basic math problems like "Find x when 18+4=x", greetings like "How are you today?"
+DETERMINISTIC - difficult problems which would require someone to have more advanced background knowledge or require them to do further research; Examples: task-based questions like "First examine the patient. Next, analyze their symptoms. Next, determine treament options...", complex math problems like "What are the egien values of a q-bit <010>?", questions with deterministic sub-questions like "What was the birthday of the wife of the 25th vice president?"
+OPEN - very difficult problems which go beyond a one individuals capabilities or might not have a deterministic answer; Examples: detailed planning like "Develop a method which will asist policy makers in determining the best way to spend funds on electric vehicle transportation. Use data ...", advanced philosophy like "If a machine could provide you with any experience as if you were there in person, would it really matter weather or not you actually went and had that experience in real life?"
+
+Please include the type as python dict at the end of your response, where the key is "Type" and the determined type is the value.

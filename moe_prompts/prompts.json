@@ -1,0 +1,38 @@
+[
+    {
+        "name" : "user_input",
+        "text" : "./moe_prompts/user_input_prompt.txt"
+    },
+    {
+        "name" : "pretext",
+        "text" : "./moe_prompts/pretext_prompt.txt"
+    },
+    {
+        "name" : "classify_problem",
+        "text" : "./moe_prompts/classify_problem_prompt.txt"
+    },
+    {
+        "name" : "brainstorm",
+        "text" : "./moe_prompts/brainstorm_prompt.txt"
+    },
+    {
+        "name" : "moe",
+        "text" : "./moe_prompts/moe_prompt.txt"
+    },
+    {
+        "name" : "moe_upgrade",
+        "text" : "./moe_prompts/moe_upgrade_prompt.txt"
+    },
+    {
+        "name" : "problem_analysis",
+        "text" : "./moe_prompts/problem_analysis_prompt.txt"
+    },
+    {
+        "name" : "evaluate_solution",
+        "text" : "./moe_prompts/evaluate_solution_prompt.txt"
+    },
+    {
+        "name" : "summary",
+        "text" : "./moe_prompts/summary_prompt.txt"
+    }
+]

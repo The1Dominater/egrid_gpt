@@ -1,0 +1,13 @@
+{pretext}
+Context:
+ - Original user input: {user_input}
+ - Expert Solution: {solution}
+
+Please provide critical analysis, focusing on identifying flaws, enhancing solution quality, and ensuring safety. Be sure to:
+1. Evaluate if the solution addresses and fully answers the original user input.
+2. Provide specific recommendations for further improving the solution which focus on:
+   - Enhancing solution quality
+   - Identifying flaws in the solution
+
+If you feel the solution fully addresses and answers the original user input, be sure to include the word "ANSWERED" at the very end of your response. Otherwise say "IMPROVE" in your response.
+Respond in paragraph form, with a maximum of 2 sentences per expert.
